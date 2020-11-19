@@ -44,6 +44,6 @@ public class Point {
     }
 
     public String toString() {
-        return String.format("(%.2f, %.2f)", this.xDim, this.yDim);
+        return String.format("(%.1f, %.1f)", this.xDim, this.yDim);
     }
 }
