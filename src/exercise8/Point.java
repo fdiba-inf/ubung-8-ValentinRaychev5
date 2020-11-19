@@ -22,7 +22,6 @@ public class Point {
     }
 
     public void initialize() {
-        //System.out.println("input values for point: ");
         this.xDim = Utils.INPUT.nextDouble();
         this.yDim = Utils.INPUT.nextDouble();
     }
